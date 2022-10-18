@@ -1,0 +1,24 @@
+---
+title: ""
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, echo = FALSE, message = FALSE)
+```
+
+## adventures  
+
+
+![](./camp.png){width=3in}   
+  
+
+#### publications
+
+[Some works captured by DOIs](https://orcid.org/0000-0002-4291-7023)  
+
+
+
+#### data    
+
+[Data indexed by DataOne](https://search.dataone.org/portals/ecodata)

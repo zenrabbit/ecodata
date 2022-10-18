@@ -1,0 +1,11 @@
+name: "ecodata 2.0"
+navbar:
+  title: "ecodata 2.0"
+  left:
+    - text: "hello"
+      href: index.html
+    - text: "people"
+      href: people.html
+    - text: "adventures"
+      href: adventures.html
+output_dir: "."

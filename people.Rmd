@@ -1,0 +1,22 @@
+---
+title: ""
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, echo = FALSE, message = FALSE)
+```
+
+## people  
+
+
+![](./explorer.png){width=3in}   
+
+```{r}
+library(tidyverse)
+library(kableExtra)
+people <- read_csv("data/people.csv")
+knitr::kable(people) %>% 
+  kable_material(c("striped", "hover"))
+```
+
